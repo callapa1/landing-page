@@ -38,7 +38,7 @@ body{
       padding-bottom: 300px;
     }
 
-  .banner .first_button{
+  .banner .first_button {
     margin: 0 auto;
     text-align: center;
     font-weight: bold;
@@ -49,6 +49,9 @@ body{
     padding-top: 1em;
     margin-bottom: 25px;
   }
+    .first_button:active {
+      text-decoration: none;
+    }
 
 .cards{
   display: flex;
